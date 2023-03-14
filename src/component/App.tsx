@@ -25,6 +25,8 @@ export default function App() {
             <Route path="/Country" element={<Country />} />
             <Route path="/about" element={<About />} />
           </Routes>
+         
+         
           {/* <MyNav className="hide"> */}
           <Menu>{isHide ? "hide" : ""}</Menu>
 
